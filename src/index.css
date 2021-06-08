@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/bodyback.jpg");
+  /* background-image: url("https://thumbs.dreamstime.com/z/abstract-futuristic-computer-technology-business-background-fade-44175553.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  content: "";
+}
+
+.container {
+  width: 100vw;
+  border: 1px solid red;
+}
+
+h3 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+
+h5 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+h6 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+p {
+  font-family: "El Messiri", sans-serif;
+  font-size: 20px;
+}
+
+.had {
+  border: 3px solid white;
+  /* z-index: 0; */
+  position: relative;
+}
+.had::before {
+  background: url("./img/bac.jpg") no-repeat center center/cover;
+  z-index: -1;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.89;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.nbg {
+  background-color: #5ba1f8;
+}
+.name {
+  margin-top: -4rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pro {
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid white;
+
+  border-radius: 50%;
+  background-image: url("./img/profile.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.ftF {
+  font-family: "El Messiri", sans-serif;
+  letter-spacing: 4px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.sp {
+  letter-spacing: 2px;
+}
+.sp2 {
+  letter-spacing: 1px;
+}
+
+.obc {
+  border-left: 2px solid gray;
+  border-radius: 2px;
+}
+
+.obc p {
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .name {
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* skills */
+
+.Eda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+}
+
+.Eda::before {
+}
+
+.otList > li {
+  font-family: "Libre Baskerville", serif;
+  padding: 1rem;
+}
+.InnList {
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .Eda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bor {
+    border-bottom: 3px solid white;
+    margin-bottom: 2rem;
+  }
+}
+
+/* skills */
+
+.bottom {
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fb {
+  width: 18rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.fb li a {
+  color: black;
+  transition: all 0.4s linear;
+}
+
+.fb li a:hover {
+  transform: scale(1.4);
+}
+
+.project {
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .bottom {
+    padding: 2rem;
+    border: 3px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.viw {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url("./img/project.jpeg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.sec-viw {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url("./img/quo.jpeg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.th-viw {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url("./img/popu.jpeg");
+  background-position: center center;
+  background-size: cover;
+}
