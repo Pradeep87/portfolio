@@ -16,7 +16,7 @@ const header = () => {
             </div>
             <div className='name'>
               <div className='pro mx-auto'>
-
+                 
                  </div>
           <div className='mx-auto d-md-flex '>
               <div className='mx-4 mt-4 '>
