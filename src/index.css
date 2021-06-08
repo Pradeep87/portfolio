@@ -129,9 +129,6 @@ p {
   align-items: top;
 }
 
-.Eda::before {
-}
-
 .otList > li {
   font-family: "Libre Baskerville", serif;
   padding: 1rem;
