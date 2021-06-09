@@ -12,8 +12,8 @@ const Para = () => {
               welcome to my portfolio.
             </p>
             <p>
-            i'm a M E R N Stack developer and online marketing strategist intrested in bussines.
- i enjoy everything from bussines to create interactive web apps.
+            i'm a M E R N Stack web developer and online marketing strategist intrested in business.
+ i enjoy everything from business to create interactive web apps.
             </p>
     </Col>
             </Row>

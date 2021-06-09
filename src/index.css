@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("./img/bodyback.jpg");
+  background: url("./img/bodyback.jpg");
   /* background-image: url("https://thumbs.dreamstime.com/z/abstract-futuristic-computer-technology-business-background-fade-44175553.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
