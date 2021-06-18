@@ -5,23 +5,23 @@
 }
 
 body {
-  background: url("./img/bodyback.jpg");
+  background: url("./img/bbdd6.jpg");
+  /* background: url("./img/bodyback.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   content: "";
+  /* color: white; */
 }
 
 .container {
   width: 100vw;
-  border: 1px solid red;
 }
 
 h3 {
   font-family: "El Messiri", sans-serif;
   font-weight: bold;
-
   letter-spacing: 3px;
   font-size: 2rem;
 }
@@ -51,7 +51,10 @@ p {
   position: relative;
 }
 .had::before {
-  background: url("./img/bac.jpg") no-repeat center center/cover;
+  /* background: url("https://i.pinimg.com/564x/43/6d/f0/436df0ed55ec0bfa723a8f12299d2cb1.jpg")
+    no-repeat center center/cover; */
+
+  background: url("./img/bbd3.jpg") no-repeat center center/cover;
   z-index: -1;
   background-size: cover;
   position: absolute;
@@ -61,7 +64,7 @@ p {
   height: 100%;
 }
 .nbg {
-  background-color: #5ba1f8;
+  background-color: #90b7e7;
 }
 .name {
   margin-top: -4rem;

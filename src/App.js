@@ -13,7 +13,7 @@ const App = () => {
     <Container fluid>
     <NavBarD/>
     <Header/>
-    <Content/>
+    <Content data-aos="fade-in"/>
     <Project/>
     <Footer/>
     </Container>

@@ -31,7 +31,7 @@ const Content = () => {
             <div > <Para/> </div>
             <div className='p-5 pb-0 Eda'>
            
-        <div className='bor'> <Edu/> </div>
+        <div className='bor' > <Edu/> </div>
 
       <div className='bor'>
        <h3>My  Skills</h3>
