@@ -14,9 +14,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 const Footer = () => {
     return (
         <>
-          <Row id='contact'>
+          <Row id='contact' >
             <Col>
-          <div className='bottom'>
+          <div className='bottom '>
       
           <div className="mt-3 text-center pb-5"> 
           <h3 className='' >how to Contact me</h3>

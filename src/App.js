@@ -10,12 +10,13 @@ import {Container} from 'react-bootstrap';
 const App = () => {
   return (
     <>
-    <Container fluid>
-    <NavBarD/>
+    <Container fluid className="bga">
+      <NavBarD/>
     <Header/>
     <Content data-aos="fade-in"/>
     <Project/>
     <Footer/>
+
     </Container>
     </>
   )

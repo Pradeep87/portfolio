@@ -5,7 +5,7 @@ const NavBarD = () => {
     return (
         <>
         <Row>
-<Col>
+
        <Navbar collapseOnSelect expand="md"  variant="dark" className='nbg'  >
         <Navbar.Brand href="#home" className='navbar-brand ml-5 ' >Portfolio</Navbar.Brand>
        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,7 +20,7 @@ const NavBarD = () => {
              
               </Navbar.Collapse>
                  </Navbar>
-                 </Col>  
+                
                      </Row>
         </>
     )

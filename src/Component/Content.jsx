@@ -26,10 +26,10 @@ const Content = () => {
     return (
         <>
 
-        <Row id='about'>
+        <Row id='about' >
             <Col className=' mx-md-auto'> 
             <div > <Para/> </div>
-            <div className='p-5 pb-0 Eda'>
+            <div className='col-md-10 mx-md-auto p-5 pb-0 Eda '>
            
         <div className='bor' > <Edu/> </div>
 
