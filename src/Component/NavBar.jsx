@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Row, Nav, Navbar} from 'react-bootstrap';
+import {Row, Nav, Navbar} from 'react-bootstrap';
 
 const NavBarD = () => {
     return (
