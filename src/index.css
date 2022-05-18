@@ -13,8 +13,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  content: "";
-  background-image: url("./img/50b3f203c21e0fdd9755316f63213d9831c18943.jpg");
+  content: '';
+  background-image: url('./img/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,30 +22,29 @@
 
   opacity: 30%;
 }
-
 h3 {
-  font-family: "El Messiri", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 2rem;
 }
 
 h5 {
-  font-family: "El Messiri", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 25px;
 }
 
 h6 {
-  font-family: "El Messiri", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 20px;
 }
 
 p {
-  font-family: "El Messiri", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   font-size: 20px;
 }
 
@@ -60,7 +59,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  content: "";
+  content: '';
   background-color: #90b7e7;
   z-index: -1;
 }
@@ -84,7 +83,7 @@ p {
   border: 3px solid white;
 
   border-radius: 50%;
-  background-image: url("./img/profile2.jpg");
+  background-image: url('./img/profile2.jpg');
   background-position: center center;
   background-size: cover;
 }
@@ -95,7 +94,7 @@ p {
 }
 
 .ftF {
-  font-family: "El Messiri", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   letter-spacing: 4px;
   font-size: 25px;
   text-decoration: underline;
@@ -144,13 +143,13 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  content: "";
+  content: '';
   background-color: #90b7e7;
   z-index: -1;
 }
 
 .otList > li {
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Libre Baskerville', serif;
   padding: 1rem;
 }
 .InnList {
@@ -188,7 +187,7 @@ p {
   left: 0%;
   width: 100%;
   height: 100%;
-  content: "";
+  content: '';
   background-color: #90b7e7;
   z-index: -1;
 }
